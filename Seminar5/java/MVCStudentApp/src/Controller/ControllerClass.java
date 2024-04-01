@@ -16,7 +16,7 @@ public class ControllerClass {
     private iGetView view;
     private List<Student> buffer = new ArrayList<>();
     private iGetViewEng viewEng;
-
+//Надо было всунуть в конструктор подстановку переменной по выбору пользователя
     public ControllerClass(iGetModel model, iGetView view, iGetViewEng viewEng) {
         this.model = model;
         this.view = view;
