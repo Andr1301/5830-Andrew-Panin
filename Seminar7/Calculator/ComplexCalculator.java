@@ -1,5 +1,3 @@
-
-
 public final class ComplexCalculator implements iComplexCalculable {
 
     private ComplexNumber firstNum;
