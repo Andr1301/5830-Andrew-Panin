@@ -1,3 +1,4 @@
+package Services;
 public class Logger {
     public void log(String line)
     {

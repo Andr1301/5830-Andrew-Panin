@@ -1,6 +1,9 @@
+package View;
 
 
 import java.util.Scanner;
+
+import Controller.Interfaces.iCalculable;
 
 public class ViewCalculator {
 
@@ -14,7 +17,6 @@ public class ViewCalculator {
         while (true) {
             int primaryArg = promptInt("Введите первый аргумент: ");
             calculator.sum(primaryArg);
-            //iCalculable calculator = calculableFactory.create(primaryArg);
             while (true) {
                 String cmd = prompt("Введите команду (*, +, =) : ");
                 if (cmd.equals("*")) {

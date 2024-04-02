@@ -1,3 +1,6 @@
+package Domain;
+
+/*Класс, создающий комплексные числа. Реальная и мнимая части задаются типом double, поскольку при делении результат может быть дробным. */
 public class ComplexNumber{
 
     private double realPart;

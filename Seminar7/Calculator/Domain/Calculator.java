@@ -1,4 +1,6 @@
+package Domain;
 
+import Controller.Interfaces.iCalculable;
 
 public final class Calculator implements iCalculable {
 
